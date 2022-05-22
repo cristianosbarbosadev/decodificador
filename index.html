@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador - Challenge 1</title>
+</head>
+<body class="body">
+    
+    <header class="logo">
+        <a href="/index.html">
+        <img src="/imagens/logo_alura.png" alt="Logo da alura com a incial a">
+        </a>
+    </header>
+    <main class="main">
+        <section>
+        <textarea class="input-texto" autofocus style="background-color: transparent";   id="input-texto"   cols="30" rows="8" placeholder="Digite aqui seu texto"></textarea>
+        
+            <div>
+                <h6 class="informacao">
+                    <img src="/imagens/bi_exclamation-circle-fill.png" alt="circulo com ponto de exclamação">    
+                    Apenas letras minúsculas e sem acento.
+                </h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick= "btnEncriptar()">
+                    <img src="/imagens/btn_criptografar.png" alt="Botão azul com a palavra criptografar" height="67px" width="328px">
+                        
+                </button>
+
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    <img src="/imagens/btn_descriptografar.png" alt="botao azul claro com a palavra Descriptografar" height="67px" width="328px">
+                        
+                </button>
+
+            </div>
+        </section>
+        <Section>
+                <textarea class="mensagem"   id="criptografado"   cols="20" rows="15" placeholder ="Nenhuma mensagem encontrada"></textarea>
+
+                <button class="copiar" onclick="btnCopiar()">
+                    <img src="/imagens/btn_copiar.png" alt="botao branco com a palavra copiar" height="30px" >
+                </button>
+
+        </Section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+<footer class="footer">
+    Cristiano Barbosa | Front End Developer | Alura Challenge
+</footer>
+</html>
