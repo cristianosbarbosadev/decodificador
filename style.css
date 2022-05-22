@@ -18,8 +18,8 @@
 
 .body {
     
+    box-sizing: border-box;
     justify-content: center;
-    min-height: 100vh;
     background-color: #F3F5FC;
     margin: auto;
 }
@@ -30,6 +30,12 @@
     display: flex;
     margin-left: 80px;
     margin-bottom: 30px;
+}
+
+.sectionDois{
+
+    margin-left: -150px;
+
 }
 
 textArea::placeholder {
